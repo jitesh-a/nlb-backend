@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "47af7d48-e676-44cb-88e1-6553f5ce427e",
+		"name": "North Loop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "North Loop - Get News",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/news?q=jitesh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"news"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "jitesh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "North Loop - Get Analysis",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/analysis?symbol=AMRN",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"analysis"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "AMRN"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
