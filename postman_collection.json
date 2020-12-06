@@ -14,7 +14,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/news?q=jitesh",
+					"raw": "https://nlb-server-app.herokuapp.com/news?q=jitesh",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -42,7 +42,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/analysis?symbol=AMRN",
+					"raw": "https://nlb-server-app.herokuapp.com/analysis?symbol=AMRN",
 					"protocol": "http",
 					"host": [
 						"localhost"
