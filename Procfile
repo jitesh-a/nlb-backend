@@ -1,1 +1,1 @@
-web: npx babel-node ./bin/www
+web: node ./bin/www
